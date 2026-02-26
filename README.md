@@ -1,7 +1,4 @@
-# 🚀 Task Manager (MERN Stack)
-
-A full-stack Task Management application built using the MERN stack.
-
+# Task Manager (MERN Stack)
 ---
 
 ## 🛠 Tech Stack
@@ -13,14 +10,14 @@ A full-stack Task Management application built using the MERN stack.
 
 ---
 
-## ✨ Features
+##  Features
 
-- ➕ Create new tasks  
-- 📋 View all tasks  
-- ✏️ Update tasks  
-- 🗑 Delete tasks (with confirmation)  
-- ✅ Mark tasks as Completed / Pending  
-- 🔎 Filter tasks (All / Pending / Completed)
+- Create new tasks  
+- View all tasks  
+- Update tasks  
+- Delete tasks (with confirmation)  
+- Mark tasks as Completed / Pending  
+- Filter tasks (All / Pending / Completed)
 
 ---
 
@@ -44,42 +41,66 @@ task-manager/
 │   │   ├── pages/
 │   │   ├── services/
 │   │   └── App.jsx
+```
 
+---
 
-Backend Setup
+## ⚙️ Backend Setup
 
-Navigate to backend : cd backend
-Navigate to backend : cd backend
+```bash
+cd backend
+npm install
+```
 
-Create .env file:
+Create a `.env` file inside backend:
+
+```env
 PORT=3000
 MONGO_URI=your_mongodb_connection_string
+```
 
-Start server: npm run dev
+Start backend server:
 
-Frontend Setup
+```bash
+npm run dev
+```
 
-Navigate to frontend: cd frontend
-Install dependencies : npm install
-Start frontend : npm run dev
+Backend runs on: http://localhost:3000
+
+---
+
+## 💻 Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
 Frontend runs on : http://localhost:5173
 
-Backend runs on : http://localhost:3000
+---
 
+## 🌍 Live Demo
 
+Frontend:https://your-frontend-link  
 
+Backend API:https://your-backend-link  
 
-Functionality Flow
+---
 
-Home page displays all tasks
+## 🔄 Functionality Flow
 
-Filter buttons allow viewing Pending or Completed tasks
+- Home page displays all tasks  
+- Filter buttons allow viewing Pending or Completed tasks  
+- Edit and Delete options available for each task  
+- Create page allows adding new tasks  
 
-Edit and Delete options available for each task
+---
 
-Create page allows adding new tasks
+## 🚀 Future Improvements
 
-Future Improvements
+- Fix the Pendind Button Functionality 
 
-Implement full Pending button
+---
+
