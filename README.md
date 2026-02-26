@@ -83,9 +83,9 @@ Frontend runs on : http://localhost:5173
 
 ## 🌍 Live Demo
 
-Frontend:https://your-frontend-link  
+Frontend:https://to-do.atultiwari.me/
 
-Backend API:https://your-backend-link  
+Backend API:https://task-mnager-todo.onrender.com/  
 
 ---
 

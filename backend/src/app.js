@@ -5,18 +5,22 @@ const taskRoutes = require("./routes/task.routes")
 
 
 // cors
-app.use(cors({
-    origin:[
-        "http://localhost:5173"
-    ]
-}))
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "https://task-mnager-todo.vercel.app/",
+      "https://to-do.atultiwari.me/",
+    ],
+  }),
+);
 
 // middleware
 app.use(express.json())
 
 // routes
 app.get("/",(req,res)=>{
-    res.send("Hello World")
+    res.send("task-manager-api")
 })
 
 app.use("/api/tasks", taskRoutes)

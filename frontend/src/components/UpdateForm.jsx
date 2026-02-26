@@ -10,7 +10,7 @@ const UpdateTaskForm = () => {
   const [description, setDescription] = useState("");
   const [status, setStatus] = useState("pending");
   const [error, setError] = useState("");
-  const [loading, setLoading] = useState(false); // loading state
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const fetchTask = async () => {
