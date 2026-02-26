@@ -9,8 +9,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://task-mnager-todo.vercel.app/",
-      "https://to-do.atultiwari.me/",
+      "https://task-mnager-todo.vercel.app",
+      "https://to-do.atultiwari.me",
     ],
   }),
 );
