@@ -1,23 +1,32 @@
-Task Manager (MERN Stack)
+# 🚀 Task Manager (MERN Stack)
 
-Tech Stack
-MongoDB
-Express.js
-React (Vite + Tailwind CSS)
-Node.js
-REST API
+A full-stack Task Management application built using the MERN stack.
 
-Features
-Create new tasks
-View all tasks
-Update tasks
-Delete tasks
-Mark task as Completed / Pending
-Filter tasks (All / Pending / Completed)
-Confirmation before deleting
+---
 
+## 🛠 Tech Stack
 
-Poject Structure
+- **Frontend:** React (Vite) + Tailwind CSS  
+- **Backend:** Node.js + Express.js  
+- **Database:** MongoDB  
+- **API:** REST API  
+
+---
+
+## ✨ Features
+
+- ➕ Create new tasks  
+- 📋 View all tasks  
+- ✏️ Update tasks  
+- 🗑 Delete tasks (with confirmation)  
+- ✅ Mark tasks as Completed / Pending  
+- 🔎 Filter tasks (All / Pending / Completed)
+
+---
+
+## 📂 Project Structure
+
+```bash
 task-manager/
 ├── backend/
 │   ├── src/
@@ -25,16 +34,16 @@ task-manager/
 │   │   ├── models/
 │   │   ├── controllers/
 │   │   ├── routes/
-│   │   └── app.js
-│   ├── server.js
+│   │   ├── app.js
+│   │   └── server.js
 │   └── .env
 │
-└── frontend/
-    ├── src/
-    │   ├── components/
-    │   ├── pages/
-    │   ├── services/
-    │   └── App.jsx
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   └── App.jsx
 
 
 Backend Setup
